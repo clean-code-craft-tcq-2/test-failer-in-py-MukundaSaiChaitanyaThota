@@ -3,7 +3,7 @@ alert_failure_count = 0
 
 def network_alert_stub(celcius):
     print(f'ALERT: Temperature is {celcius} celcius')
-    if(celcius <= MAX_TEMP_ALLOWED_IN_CELCIUS):
+    if(celcius <= 200):
     # Return 200 for ok
         return 200
     else:
