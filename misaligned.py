@@ -17,4 +17,5 @@ assert (color_map[0] == '1 | White | Blue')
 assert (color_map[1] == '3 | White | Orange')
 assert (color_map[14] == '15 | Black | Slate')
 assert(result == 25)
+
 print("All is well (maybe!)\n")
